@@ -1,316 +1,91 @@
-html{
-zoom: 100%; //задает начальный исходный масштаб страницы при открытии
-}
-body{
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    
-}
-h2{
-    position: relative;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
-    text-align: center;
-    color: #575757;
-}
- 
-header{
-    position: relative;
-    height: 100px;
-    top: 70px;
-    width: 100%;
-    background: #FFC700;
-    display: flex;
-    align-items: center;
-}
- 
-nav{
-    position: absolute;
-    width: 50%;
-    left: 358px;
-    top: 50%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
- 
-.nav-link{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 23px;
-    text-decoration: none;
-    color: #1E1E1E;
-}
- 
-.nav-link:first-child{
-    font-weight: 700;  
-    color: #FFFFFF;
-}
- 
-.nav-link:hover:first-child{
-    color: #1E1E1E;
-}
- 
-.nav-link:hover{
-    font-weight: 700;
-    color: #FFFFFF;
-    transition: 0.2s ease-in;
-}
- 
-.logo{
-    position: absolute;
-    width: 15%;
-    left: 88px;
-    top: 20%;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    color: #FFFFFF;
-}
- 
-main{
-    position: relative;
-    width: 100%;
-    top: 100px;
-}
- 
-.info{
-    position: relative;
-    width: 100%;
-    height: 528px;
-    left: 0px;
-    top: 50px;
-}
-.info-img{
-    position: absolute;
-    width: 30%;
-    left: 65%;
-}
-.info-div{
-    position: absolute;
-    left: 5%;
-    width: 50%;
-}
-.info-div h1{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 75px;
-    color: #575757;
-}
-.info-div p{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 28px;
-    color: #575757;
-    width: 90%;
-}
-.info-butt{
-    width: 70%;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-.call-butt{
-    background: #FFC700;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 3% 10%;
-    margin: 5% 5% 5% 0%;
-}
-.call-butt:hover{
-    background: #FFFFFF;
-    color: #FFC700;
-    border: 1px solid #FFC700;
-    transition: 0.2s ease-out;
-}
-.menu-butt{
-   background: #FFFFFF;
-    border: 1px solid #FFC700;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    text-decoration: none;
-    color: #FFC700;
-    padding: 3% 10%;
-    margin: 5% 5% 5% 0%;
-   
-}
-.menu-butt:hover{
-    background: #FFC700;
-    color: #FFFFFF;
-    transition: 0.2s ease-out;
-}
- 
-.menu{
-    position: relative;
-    width: 100%;
-    height: 40%;
-    left: 0px;
-    top:0;
-}
-.menu-div{
-    position: relative;
-    left: 88px;
-    margin: 10% 0%;
-}
-.menu-img{
-    width: 30%;
-   
-}
-.menu-info{
-    position: absolute;
-    width: 50%;
-    left: 40%;
-    top: 0;
-   
-}
-.menu-info h3{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    color: #FFC700;
-}
-.menu-text{
-    width: 80%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #1E1E1E;
-}
- 
-.sallary{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FF6B00;
-}
-.order{
-    background: #FFC700;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 2% 10%;
-   
-}
-.order:hover{
-    background: #FFFFFF;
-    color: #FFC700;
-    border: 1px solid #FFC700;
-    transition: 0.2s ease-out;
-}
- 
-.sale{
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 407px;
-    left: 0px;
-   
-}
-.sale-div{
-    display: flex;
-    justify-content: center;
-}
-.sale-img{
-    width: 190px;
-    height: 190px;
-    padding: 3% 5%;
-   
-}
-.about{
-    position: relative;
-    width: 100%;
-    height: 777px;
-    left: 0px;
-    width: 100%;
-    height: 90%;
-    background-color: #FFC700;
-}
-.about p {
-    color: #1E1E1E;
-}
-.about-div p{
-    position: absolute;
-    width: 40%;
-    height: 273px;
-    left: 87px;
-    top: 187px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 150%;
-    color: #FFFFFF;
- 
-}
- 
-footer{
-    position: relative;
-    width: 100%;
-    top: 270px;
-    height: 425px;
-    left: 0px;
-    background: #FFC700;
-}
-.footer-info{
-    position: absolute;
-    width: 30%;
-    left: 90px;
-    top: 10%;
-}
-h4{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    color: #FFFFFF;
-}
-.footer-info p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
- 
-    color: #575757;
-}
-.footer-img{
-    width: 70px;
-    height: 70px;
-    margin-right: 3%;
-}
-.logo-img{
-    position: absolute;
-    left: 70%;
-    top:15%;
-    width:107px;
-    height:107px;
-}
 
-.ladno {
-    margin-top:20px;
-}
+<html>
+    <head>
+        <title>Mcdonald’s</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+        <h1 class="logo">Mcdonald’s</h1>
+        <nav>
+            <a class="nav-link" href="#info">Головна</a>
+            <a class="nav-link" href="#menu">Меню</a>
+            <a class="nav-link" href="#price">Акції</a>
+            <a class="nav-link" href="#about">Про нас</a>
+            <a class="nav-link" href="#footer-info">Контакти</a>
+        </nav>
+        </header>
+        <main>
+            <section class="info">
+               <div class="info-div">
+                   <h1 id= "info"> Mcdonald’s</h1>
+            <p>Знаєш що замовити, натискай на кнопку і ми тобі зателефонуємо. Або переходь до меню</p>
+                <article class="info-butt">
+                    <a class="call-butt" href="">Дзвінок</a>
+                    <a class="menu-butt" href="">Меню</a>
+                </article>
+               </div>
+               <img class="info-img" class="lol" src="https://cdn.discordapp.com/attachments/985792967048581120/997548135830278244/3c0e8a9bcfef2c97.png">
+            </section>
+ 
+            <section class="menu">
+                <h2 id="menu" >Меню</h2>
+                <div class="menu-div">
+                    <img class="menu-img" src="https://www.mcdonalds.com/is/image/content/dam/ua/nutrition/nfl-product/product/hero/thumb.Sdwch_BigMac.png?$Product_Desktop$">
+                    <article class="menu-info">
+                        <h3>Біг мак</h3>
+                        <p class="menu-text">Два біфштекси з натуральної яловичини, цибуля, маринований огірок, сир “Чеддер”, свіжий салат, заправлені спеціальним соусом, у булочці з насінням сезаму.</p>
+                        <p class="sallary">69 грн </p>
+                        <a class="order" href="">Замовити</a>
+                    </article>
+                </div>
+                <div class="menu-div">
+                    <img class="menu-img" src="https://www.mcdonalds.com/is/image/content/dam/ua/nutrition/nfl-product/product/hero/RollChicken.png?$Product_Desktop$">
+                     <article class="menu-info">
+                        <h3 class="ladno">Чікен рол</h3>
+                        <p class="menu-text">Перетерті томати, моцарелла, прошутто котто, артишоки, свіжі печериці, салямі Мілано. </p>
+                        <p class="sallary">62 грн </p>
+                        <a class="order" href="">Замовити</a>
+                    </article>
+                </div>
+                <div class="menu-div">
+                    <img class="menu-img" src="https://www.mcdonalds.com/is/image/content/dam/ua/nutrition/nfl-product/product/hero/FrenchFriesCheeseOnion.png?$Product_Desktop$">
+                     <article class="menu-info">
+                        <h3>Картопля Фрі з сирним соусом і цибулею</h3>
+                        <p class="menu-text">Класична Картопля Фрі, полита густим сирним соусом та посипана хрумкою смаженою цибулею. </p>
+                        <p class="sallary"> 75 грн</p>
+                        <a class="order" href="">Замовити</a>
+                    </article>
+                </div>
+            </section>
+            <section class="sale">
+                <h2 id="price">Акції</h2>
+                <div class="sale-div">
+                    <img class="sale-img" src="https://drive.google.com/uc?export=view&id=1ZGkuRyjz5HVsdMQAlVKvg4slCM33cBvT">
+                    <img class="sale-img" src="https://drive.google.com/uc?export=view&id=1DppdkXkvnOZgMlCgRgPquJsM3HPojL6P">
+                    <img class="sale-img" src="https://drive.google.com/uc?export=view&id=1oDDtVWW3LX70mBrAyDhWBtr9GqX3a0Vk">
+                </div>
+            </section>
+             <section class="about">
+                <h2 id="about">Про нас</h2>
+                <p>Під торговою маркою «МакДональдз» на середину червня 2009 року працювало 32 060 ресторанів у 118 країнах світу (в тому числі близько 14 000 з них розташовані в США). З них значна частина (25 578) керувалися по франчайзингу, тому асортимент ресторанів, розмір і склад порцій може сильно відрізнятися в різних країнах.</p>
+                <div class="about-div">
+                    <p>Макдоналдс</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+           <div class="footer-info">
+               <h2 id="footer-info">Контакти</h2>
+               <h4>+38(099) - 55 - 33-456</h4>
+               <p>місто Львів</p>
+               <p>вул. Богдана Хмельницького 14</p>
+               <img class="footer-img" src="https://drive.google.com/uc?export=view&id=1l5JjeUTTctS5bvyWWrCPOUcB-GaCZm3b">
+               <img class="footer-img" src="https://drive.google.com/uc?export=view&id=1uesqOjX7FlRJlbVxVntIcwKf30o7uAli">
+           </div>
+            <img class="logo-img" src="https://cdn.discordapp.com/attachments/985792967048581120/997549483388837908/8dba33922ef323ba.png">
+        </footer>
+    </body>
+</html>
+ 
 
-.lol {
-    width:574px;
-    height:574px;
-}
