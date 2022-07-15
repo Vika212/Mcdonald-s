@@ -29,7 +29,7 @@ header{
     align-items: center;
 }
  
-nav{
+.my_nav a {
     position: absolute;
     width: 50%;
     left: 358px;
@@ -245,6 +245,7 @@ main{
     left: 0px;
     width: 100%;
     height: 90%;
+    background-color: #FFC700;
 }
 .about p {
     color: #1E1E1E;
