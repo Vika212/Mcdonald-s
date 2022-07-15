@@ -29,7 +29,7 @@ header{
     align-items: center;
 }
  
-.my_nav a {
+nav{
     position: absolute;
     width: 50%;
     left: 358px;
@@ -302,9 +302,15 @@ h4{
     position: absolute;
     left: 70%;
     top:15%;
-    width: 15%;
+    width:107px;
+    height:107px;
 }
 
 .ladno {
     margin-top:20px;
+}
+
+.lol {
+    width:574px;
+    height:574px;
 }
